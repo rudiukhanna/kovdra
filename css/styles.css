@@ -150,8 +150,9 @@ body {
     background-image: url(../img/section4/bcg_clouds.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center bottom;
     padding-top: 79px;
-    padding-bottom: 343px;
+    padding-bottom: 500px;
 }
 
 .four_h2 {
@@ -176,8 +177,7 @@ body {
     letter-spacing: 0.025em;
     color: #ffffff;
 }
-.four_right {
-}
+
 .four__grid {
     padding-top: 47px;
     display: grid;
@@ -218,6 +218,132 @@ body {
     font-size: 73px;
     font-weight: 700;
 }
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+
+ @media screen and (max-width: 768px) {
+   
+    .hero__top {
+        padding-top: 63px;
+    }
+
+    .hero__top>img {
+        width: 247px;
+    }
+   
+    .title-hero {
+        font-size: 41.8px;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+    }
+
+    .text-hero {
+        font-size: 56.3px;
+        letter-spacing: normal;
+    }
+
+    .hero__bottom-img-right {
+        width: 500px;
+     }
+
+     .section2-h2 {
+        font-size: 37.5px;
+        line-height: 1.2;
+        letter-spacing: 0.025em;
+     }
+
+     .section2-p {
+        font-size: 29.2px;
+     }
+
+     .two__bottom_inner img {
+        width: 84px;
+     }
+
+     .three_image {
+        width: 705px;
+     }
+
+     .card_img img {
+        width: 323px;
+     }
+
+     .card_text_h2 {
+        font-size: 35.5px;
+        letter-spacing: 0.025em;
+     }
+
+     .card_text_p {
+        font-size: 29.2px;
+     }
+
+
+     .four {
+        padding-top: 55px;
+        padding-bottom: 265px;
+        background-position: center bottom;
+     }
+
+     .four_h2 {
+        font-size: 53.7px;
+        line-height: 1.2;;
+        letter-spacing: 0.025em;
+     }
+
+     .four_left img,
+     .four_right img {
+        width: 381px;
+     }
+
+     .four_h3 {
+        font-size: 35.5px;
+        letter-spacing: 0.025em;
+     }
+
+     .four__grid {
+        grid-template-rows: none;
+     }
+
+     .four_h4 {
+        font-size: 29.2px;
+        font-weight: 400;
+     }
+
+     .four_grid-span {
+        padding: 20px 61px;
+        font-size: 29.2px;
+        letter-spacing: 0.025em;
+     }
+
+     .four_h5  {
+        padding-top: 57px;
+        font-size: 36.3px;
+        line-height: 1.2;
+        letter-spacing: 0.025em;
+     }
+
+     .four_span {
+        font-size: 50.8px;
+        font-weight: bold;
+     }
+ }
+ 
+
+ @media screen and (max-width: 380px) {
+
+    .hero__top {
+        flex-direction: column;
+    }
+
+    .hero__top>img {
+        width: 185px;
+    }
+ }
+
+
 
 
 
