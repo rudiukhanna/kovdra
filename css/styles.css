@@ -1,0 +1,73 @@
+@import url(./normalize.css);
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    max-width: 1533px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 45px;
+}
+
+/* Hero */
+.hero {
+    background-color: #000066ce;
+    background-image: url(../img/hero/bcg_stars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__top {
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-hero {
+    font-size: 62.5px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-hero {
+    font-size: 83.4px;
+    letter-spacing: 0.025em;
+}
+
+.hero__bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__bottom-img-left {
+    margin-right: -50px;
+    z-index: 1;
+    width: calc(50% - 50px);
+}
+
+.hero__bottom-img-right {
+    position: relative;
+    margin-left: -50px;
+    top: -20px;
+}
+
+
+
+
+
