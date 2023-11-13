@@ -144,6 +144,82 @@ body {
 }
 
 
+/* Section 5 */
+.four {
+    background-color: #000066ce;
+    background-image: url(../img/section4/bcg_clouds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 79px;
+    padding-bottom: 343px;
+}
+
+.four_h2 {
+    font-size: 77.1px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.four_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.four_h3 {
+    text-align: center;
+    font-size: 52.1px;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+.four_right {
+}
+.four__grid {
+    padding-top: 47px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.four_h4 {
+    font-size: 41.7px;
+    font-weight: 400;
+    color: #ee7601;
+}
+
+.four_grid-span {
+    font-size: 37.5px;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-align: center;
+
+    background-color: #ee7601;
+    padding: 34px 62px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+}
+
+    .four_h5 {
+        font-size: 52.1px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        color: #ffffff;
+        text-align: center;
+}
+
+.four_span {
+    font-size: 73px;
+    font-weight: 700;
+}
+
+
 
 
 
