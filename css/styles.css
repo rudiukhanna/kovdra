@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+h1, h2, h3, h4, h5 ,h6 {
+    margin: 0;
+}
+
 body {
     font-family: 'Russo One', sans-serif;
     font-weight: 400;
@@ -65,6 +69,46 @@ body {
     position: relative;
     margin-left: -50px;
     top: -20px;
+}
+
+/* Section 2 */
+.two {
+    background-color: #000066ce;
+    padding-top: 55px;
+    padding-bottom: 76px;
+}
+.two__top_inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.section2-h2 {
+    font-size: 52.1px;
+    line-height: 1.2;
+    letter-spacing: 0.075em;
+    color: #fffffc;
+}
+
+.section2-p {
+    font-size: 37.5px;
+    color: #fffffc;
+}
+
+.two__bottom_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two__bottom_inner-left {
+    display: flex;
+    align-items: center;
+}
+
+.two__bottom_inner-right {
+    display: flex;
+    align-items: center;
 }
 
 
