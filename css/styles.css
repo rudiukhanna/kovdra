@@ -111,6 +111,39 @@ body {
     align-items: center;
 }
 
+/* Section 3 */
+.three {
+    background-color: #ffffff;
+    padding-top: 89px;
+    padding-bottom: 77px;
+}
+
+.three__inner {
+    padding-top: 99px;
+}
+
+.three_card_inner {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.card_img {
+}
+.card_text {
+}
+
+.card_text_h2 {
+    font-size: 62.5px;
+    letter-spacing: 0.025em;
+    color: #e27601;
+}
+
+.card_text_p {
+    font-size: 37.5px;
+    color: #000000;
+}
+
+
 
 
 
