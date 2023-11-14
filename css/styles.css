@@ -122,6 +122,10 @@ body {
     padding-top: 99px;
 }
 
+.three__inner-mobile {
+    display: none;
+}
+
 .three_card_inner {
     display: flex;
     align-items: center;
@@ -224,6 +228,7 @@ body {
 }
 
 /* Media queries */
+/* Tablets */
  @media screen and (max-width: 768px) {
    
     .hero__top {
@@ -331,16 +336,135 @@ body {
      }
  }
  
-
- @media screen and (max-width: 380px) {
+/* Mobile */
+ @media screen and (max-width: 576px) {
 
     .hero__top {
         flex-direction: column;
+        padding-top: 31px;
     }
 
     .hero__top>img {
         width: 185px;
+        margin-bottom: 31px;
     }
+
+    .title-hero {
+        font-size: 25px;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+    }
+
+    .text-hero {
+        font-size: 45.9px;
+    }
+
+    .hero__bottom-img-left {
+        display: none;
+    }
+
+    .hero__bottom-img-right {
+        width: 283px;
+        margin-left: 116px;
+        top: 0px;
+    }
+
+    .two {
+        padding-top: 47px;
+        padding-bottom: 43px;
+    }
+
+    .two__top_inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2-h2 {
+        font-size: 25px;
+        line-height: 1.2;
+        letter-spacing: 0.025em;
+    }
+
+    .section2-p {
+        font-size: 20.9px;
+        text-transform: none;
+    }
+
+    .two__bottom_inner,
+    .two__bottom_inner-left, 
+    .two__bottom_inner-right {
+        flex-direction: column;
+    }
+     
+
+    .three {
+        padding-top: 35px;
+        padding-bottom: 31px;
+    }
+
+    .three_blanket {
+        height: 301px;
+        background-image: url(../img/section3/blanket_3_mob.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .three_image {
+        display: none;
+    }
+
+    .three__inner {
+        display: none;
+    }
+
+    .three__inner-mobile {
+        display: flex;
+        flex-direction: column;
+        padding-top: 35px;
+    }
+
+    .three_card_inner {
+        flex-direction: column;
+    }
+
+    .card_img img {
+        width: 220px;
+    }
+
+    .card_text_h2 {
+        font-size: 25px;
+        letter-spacing: 0.025em;
+        text-align: center;
+    }
+
+    .card_text_p {
+        text-align: center;
+        font-size: 18.8px;
+    }
+
+    .four {
+        padding-top: 32px;
+        padding-bottom: 99px;
+        background-size: cover;
+    }
+
+    .four_h2,
+    .four_inner,
+    .four__grid  {
+        display: none;
+    }
+
+    .four_h5 {
+        margin: 0 auto;
+        width: 220px;
+        padding-top: 0;
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .four_span {
+        font-size: 37.5px;
+        font-weight: 700;
+     }
  }
 
 
