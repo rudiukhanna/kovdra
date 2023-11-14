@@ -223,7 +223,7 @@ body {
     visibility: hidden;
 }
 
-
+/* Media queries */
  @media screen and (max-width: 768px) {
    
     .hero__top {
@@ -284,7 +284,7 @@ body {
      .four {
         padding-top: 55px;
         padding-bottom: 265px;
-        background-position: center bottom;
+        background-size: contain;
      }
 
      .four_h2 {
